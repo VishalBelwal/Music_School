@@ -14,7 +14,7 @@ interface Course {
   price: number;
   instructor: String;
   isFeatured: boolean;
-//   image: "/courses/guitar.jpg";
+  image: String;
 }
 
 export default function FeaturedSection() {
